@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Kumar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="min-h-screen">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="gradient-text">Aditya Kumar</h1>
+                    <p class="subtitle">Software Engineering Student • B.Tech 2nd Year</p>
+                    <p class="description">Passionate about building scalable applications and exploring new technologies</p>
+                    <div class="button-group">
+                        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                        <a href="#projects" class="btn btn-secondary">View Projects</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i data-lucide="code-2" class="skill-icon blue"></i>
+                        <h3>Programming</h3>
+                        <p>Java, Python, JavaScript, TypeScript</p>
+                    </div>
+                    <div class="skill-card">
+                        <i data-lucide="globe" class="skill-icon green"></i>
+                        <h3>Web Development</h3>
+                        <p>HTML/CSS, JavaScript, Node.js</p>
+                    </div>
+                    <div class="skill-card">
+                        <i data-lucide="database" class="skill-icon purple"></i>
+                        <h3>Databases</h3>
+                        <p>MySQL, MongoDB, PostgreSQL</p>
+                    </div>
+                    <div class="skill-card">
+                        <i data-lucide="cpu" class="skill-icon red"></i>
+                        <h3>Tools & Technologies</h3>
+                        <p>Git, Docker, AWS, Linux</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&q=80')"></div>
+                        <div class="project-content">
+                            <h3>Smart Campus App</h3>
+                            <p>A mobile application for campus navigation and event management using React Native and Firebase.</p>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i data-lucide="github"></i> Code
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i data-lucide="external-link"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?auto=format&fit=crop&q=80')"></div>
+                        <div class="project-content">
+                            <h3>AI Study Assistant</h3>
+                            <p>An AI-powered study tool that helps students organize and understand complex topics using Python and OpenAI.</p>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i data-lucide="github"></i> Code
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i data-lucide="external-link"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <div class="contact-content">
+                    <div class="social-links">
+                        <a href="mailto:aditya@example.com" class="social-link">
+                            <i data-lucide="mail"></i>
+                            aditya@example.com
+                        </a>
+                        <a href="https://github.com" class="social-link">
+                            <i data-lucide="github"></i>
+                            GitHub
+                        </a>
+                        <a href="https://linkedin.com" class="social-link">
+                            <i data-lucide="linkedin"></i>
+                            LinkedIn
+                        </a>
+                    </div>
+                    <form id="contact-form" class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="4" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2024 Aditya Kumar. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
